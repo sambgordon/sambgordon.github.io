@@ -11,3 +11,5 @@ Libraries used:
 * [Smooth Scroll](https://github.com/cferdinandi/smooth-scroll)
 * [Slider Revolution](https://revolution.themepunch.com/)
 * [Stellar.js](http://markdalgleish.com/projects/stellar.js/)
+* [Lodash](https://lodash.com/)
+
