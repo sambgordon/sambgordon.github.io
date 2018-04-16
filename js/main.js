@@ -1718,7 +1718,7 @@ $(document).ready(function () {
             userId: 6937539060,
             limit: '8',
             accessToken: '6937539060.1677ed0.a6e55187dfce4113b098c151c13953eb',
-            resolution: "low_resolution",
+            resolution: "standard_resolution",
             error: {
                 template: '<div class="col-md-12 col-sm-12 col-xs-12"><span class=text-center>No Images Found</span></div>'
             },
@@ -1734,7 +1734,7 @@ $(document).ready(function () {
             userId: 6937539060,
             limit: '6',
             accessToken: '6937539060.1677ed0.a6e55187dfce4113b098c151c13953eb',
-            resolution: "low_resolution",
+            resolution: "standard_resolution",
             after: function () {
                 equalizeHeight();
             },
