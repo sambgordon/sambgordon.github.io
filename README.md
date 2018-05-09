@@ -2,7 +2,7 @@
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
 # Personal Portfolio Site
-New website. In the process of migrating from WP to github-pages with a more Javascript-centric stack.
+New website. Migrated from WP to github-pages with a more Javascript-centric stack.
 
 
 Libraries used:
