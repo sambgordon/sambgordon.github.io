@@ -1717,7 +1717,7 @@ $(document).ready(function () {
             get: 'user',
             userId: 6937539060,
             limit: '8',
-            accessToken: '6937539060.1677ed0.a6e55187dfce4113b098c151c13953eb',
+            accessToken: '6937539060.1677ed0.c917739c1c494223a7aa9cc98973a8d0',
             resolution: "standard_resolution",
             error: {
                 template: '<div class="col-md-12 col-sm-12 col-xs-12"><span class=text-center>No Images Found</span></div>'
