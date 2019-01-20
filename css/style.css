@@ -262,6 +262,13 @@ font-size: 12px !important;
 .text-extra-dark-gray {
 	color: #232323
 }
+
+.text-extra-dark-gray-02 {
+	color: #232323;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 44px !important;
+}
+
 .text-dark-gray {
 	color: #626262
 }
@@ -283,7 +290,12 @@ font-size: 12px !important;
 .text-deep-pink {
 	color: #27c8fc
 }
-/* dropcap */
+
+.text-deep-pink-02 {
+	color: #3e8bdb;
+}
+
+
 
 .first-letter {
 	float: left;
@@ -787,12 +799,35 @@ a.text-very-light-gray-hover:hover {
 .bg-light-gray {
 	background-color: #f7f7f7
 }
+
+
+.bg-lighter-gray {
+	background-color: #f9f9f9
+}
+
 .bg-very-light-gray {
 	background-color: #fafafa
 }
 .bg-deep-pink {
 	background-color: #27c8fc;
+}/*	background-color: #3e8bdb;*/
+
+/*deep pink orig #E93E54*/
+
+.bg-deep-pink-02 {
+	background-color: #3e8bdb;
 }
+
+.bg-deep-pink-03{
+	background-color: #E93F55;
+}
+
+
+.bg-one{
+	background-color: #fbfbfb;
+}
+
+
 .bg-transparent-white {
 	background-color: rgba(255, 255, 255, 0.3);
 	background: -moz-linear-gradient(left, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 37%, rgba(255, 255, 255, 1) 96%, rgba(255, 255, 255, 1) 100%);
@@ -11143,14 +11178,15 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 /* list style 6 */
 
 .list-style-11 {
+	font-size: 12px;
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 .list-style-11 li {
 	position: relative;
-	padding: 0 0 8px 0;
-	margin: 0 0 8px 0;
+	padding: 0 0 4px 0;
+	margin: 0 0 4px 0;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .list-style-11 li span {
@@ -11162,6 +11198,32 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 	border-bottom: none
 }
 .list-style-11 li:before {
+	content: "";
+}
+
+/* list style 2 */
+
+.list-style-12 {
+	font-size: 11px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.list-style-12 li {
+	position: relative;
+	padding: 0 0 2px 0;
+	margin: 0 0 2px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.list-style-12 li span {
+	position: absolute;
+	top: 3px;
+	right: 0;
+}
+.list-style-12 li:last-child {
+	border-bottom: none
+}
+.list-style-12 li:before {
 	content: "";
 }
 /* image hover style 1 */
