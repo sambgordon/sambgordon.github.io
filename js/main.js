@@ -94,8 +94,8 @@ function init_scroll_navigate() {
     //background color slider Start
     /*==============================================================*/
     var $window = $(window),
-            $body = $('.bg-background-fade'),
-            $panel = $('.color-code');
+        $body = $('.bg-background-fade'),
+        $panel = $('.color-code');
     var scroll = $window.scrollTop() + ($window.height() / 2);
     $panel.each(function () {
         var $this = $(this);
@@ -852,13 +852,13 @@ $(document).ready(function () {
         var target = this.hash;
         if ($(target).length != 0) {
             $('html, body').stop()
-                    .animate({
-                        'scrollTop': $(target)
-                                .offset()
-                                .top
-                    }, scrollAnimationTime, scrollAnimation, function () {
-                        window.location.hash = target;
-                    });
+                .animate({
+                    'scrollTop': $(target)
+                        .offset()
+                        .top
+                }, scrollAnimationTime, scrollAnimation, function () {
+                    window.location.hash = target;
+                });
         }
     });
 
@@ -875,9 +875,9 @@ $(document).ready(function () {
                 var target = _this.attr("href");
                 if ($(target).length > 0) {
                     $('html, body').stop()
-                    .animate({
-                        'scrollTop': $(target).offset().top
-                    });
+                        .animate({
+                            'scrollTop': $(target).offset().top
+                        });
                 }
             }, 500);
         });
@@ -886,7 +886,7 @@ $(document).ready(function () {
     // Inner links
     if ($('.navbar-top').length > 0 || $('.navbar-scroll-top').length > 0 || $('.nav-top-scroll').length > 0) {
         $('.inner-link').smoothScroll({
-            speed: 900,
+            speed: 500,
             offset: 0
         });
     } else {
@@ -1668,8 +1668,8 @@ $(document).ready(function () {
     });
 
     var menuRight = document.getElementById('cbp-spmenu-s2'),
-            showRightPush = document.getElementById('showRightPush'),
-            body = document.body;
+        showRightPush = document.getElementById('showRightPush'),
+        body = document.body;
     if (showRightPush) {
         showRightPush.onclick = function () {
             classie.toggle(this, 'active');
@@ -1768,7 +1768,7 @@ $(document).ready(function () {
     instagramfeed end
     ==============================================================*/
 
-    
+
     /*==============================================================*/
     //magnificPopup Start
     /*==============================================================*/
@@ -2070,8 +2070,8 @@ $(document).ready(function () {
     //demo button  - START CODE
     /*==============================================================*/
 
-//    var $buythemediv = '<div class="buy-theme alt-font sm-display-none"><a href="https://themeforest.net/item/pofo-creative-agency-corporate-and-portfolio-multipurpose-template/20645944?ref=themezaa" target="_blank"><i class="ti-shopping-cart"></i><span>Buy Theme</span></a></div><div class="all-demo alt-font sm-display-none"><a href="mailto:info@themezaa.com?subject=POFO – Creative Agency, Corporate and Portfolio Multi-purpose Template - Quick Question"><i class="ti-email"></i><span>Quick Question?</span></a></div>';
-//    $('body').append($buythemediv);
+    //    var $buythemediv = '<div class="buy-theme alt-font sm-display-none"><a href="https://themeforest.net/item/pofo-creative-agency-corporate-and-portfolio-multipurpose-template/20645944?ref=themezaa" target="_blank"><i class="ti-shopping-cart"></i><span>Buy Theme</span></a></div><div class="all-demo alt-font sm-display-none"><a href="mailto:info@themezaa.com?subject=POFO – Creative Agency, Corporate and Portfolio Multi-purpose Template - Quick Question"><i class="ti-email"></i><span>Quick Question?</span></a></div>';
+    //    $('body').append($buythemediv);
 
     /*==============================================================*/
     //demo button  - END CODE
@@ -2092,16 +2092,16 @@ $(window).load(function () {
         setTimeout(function () {
             $(window).imagesLoaded(function () {
                 var scrollAnimationTime = 1200,
-                        scrollAnimation = 'easeInOutExpo';
+                    scrollAnimation = 'easeInOutExpo';
                 var target = '#' + hash;
                 if ($(target).length > 0) {
 
                     $('html, body').stop()
-                            .animate({
-                                'scrollTop': $(target).offset().top
-                            }, scrollAnimationTime, scrollAnimation, function () {
-                                window.location.hash = target;
-                            });
+                        .animate({
+                            'scrollTop': $(target).offset().top
+                        }, scrollAnimationTime, scrollAnimation, function () {
+                            window.location.hash = target;
+                        });
                 }
             });
         }, 500);
