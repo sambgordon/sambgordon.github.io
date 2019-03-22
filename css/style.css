@@ -187,9 +187,44 @@ color: #d97c77;
 
 
 
+.box2 {
+	right: 12px ;
+}
+.box3 {
+	right: 5px ;
+}
+.box4 {
+	left: 3px ;
+}
+
+
+@media (max-width: 1200px) {
+.box2 {
+	right: 10px ;
+}
+.box3 {
+	right: 5px ;
+}
+.box4 {
+	left: 2px ;
+	}
+
+}
 
 
 
+@media (max-width: 991px) {
+	.box2 {
+		right: 0px ;
+	}
+	.box3 {
+		right: 0px ;
+	}
+	.box4 {
+		left: 0px ;
+	}
+
+}
 
 
 
@@ -1016,9 +1051,24 @@ a.text-very-light-gray-hover:hover {
 	padding: 0px 35px 35px 35px;
 }
 
+.table-padding-large{
+	padding: 0px 35px 0px 35px;
+}
+
+.table-padding-2{
+	padding: 0px 0px 35px 0px;
+}
+
+
 
 .table-radius{
 	padding-top: 30px; 
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+}
+
+
+.table-radius-2{
 	border-radius: 5px 5px 0 0;
 	overflow: hidden;
 }
