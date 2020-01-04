@@ -1118,7 +1118,7 @@ a.text-very-light-gray-hover:hover {
 }
 
 .bg-deep-pink-04 {
-	background-color: #4a56db;
+	background-color: #24acf4;
 }
 /* 
 #26547C
@@ -1775,8 +1775,8 @@ textarea.input-bg {
 }
 
 .btn.btn-black-2 {
-	background: orange;
-	border-color: orange;
+	background: #f9903d;
+	border-color: #f9903d;
 	color: #fff
 }
 .btn.btn-black-2:hover, .btn.btn-black-2:focus {
