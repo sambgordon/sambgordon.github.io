@@ -41,7 +41,7 @@ Table of contents
 
 
 .bg-custom-black {
-	background-color: black;
+	background-color: #ff5300;
 }
 
 .bg-custom-dark {
@@ -49,25 +49,22 @@ Table of contents
 }
 
 .bg-custom-red{
-	background-color: #e7413d;
+	background-color: #f7ae00;
 }
+
 
 .bg-custom-darkgreen{
 	background-color: #1d6d6a;
 }
 
-.bg-custom-darkblue{
-	background-color: #114997;
-}
-
 
 
 .bg-custom-skyblue{
-	background-color:	#599cff;
+	background-color:	#00bb8a;
 }
 
 .bg-custom-darkblue{
-	background-color: #4a56db;
+	background-color: #00acc9;
 }
 
 
@@ -83,8 +80,8 @@ Table of contents
 
 
 .btn-custom-darkblue{
-	background: #2a6dd0;
-	border-color: #2a6dd0;
+	background: #00bb8a;
+	border-color: #00bb8a;
 	color: #ffffff
 }
 .btn.btn-custom-darkblue:hover, .btn.btn-custom-darkblue:focus {
@@ -92,7 +89,7 @@ Table of contents
 }
 
 .btn-custom-red{
-color: #d97c77;
+color: #ffcb00;
 }
 .btn.btn-custom-red:hover, .btn.btn-custom-red:focus {
 	color: #232323
@@ -128,8 +125,8 @@ color: #d97c77;
 }
 
 .btn.btn-custom-yellow {
-	background: #f8d75b;
-	border-color: #f8d75b;
+	background: #ff5300;
+	border-color: #ff5300;
 
 	color: #ffffff
 /* yellow */
@@ -139,8 +136,8 @@ color: #d97c77;
 }
 
 .btn.btn-custom-red {
-	background: #E87673;
-	border-color: #E87673;
+	background: #00acc9;
+	border-color: #00acc9;
 
 	color: #ffffff
 /* yellow */
@@ -151,8 +148,8 @@ color: #d97c77;
 
 
 .btn.btn-custom-dark {
-	background: #26547C;
-	border-color: #26547C;
+	background: #ffcb00;
+	border-color: #ffcb00;
 
 	color: #ffffff;
 /* yellow */
@@ -486,6 +483,12 @@ h6 {
 	font-size: 20px;
 	line-height: 26px
 }
+
+.text-large-2 {
+	font-size: 22px;
+	line-height: 26px
+}
+
 .title-large {
 	font-size: 100px;
 	line-height: 95px
@@ -1063,14 +1066,16 @@ a.text-very-light-gray-hover:hover {
 
 .table-radius{
 	padding-top: 30px; 
-	border-radius: 5px 5px 0 0;
+	 border-radius: 17px 17px 0 0;
 	overflow: hidden;
+
 }
 
 
 .table-radius-2{
-	border-radius: 5px 5px 0 0;
+	 border-radius: 17px 17px 0 0; 
 	overflow: hidden;
+
 }
 
 
@@ -1185,6 +1190,12 @@ section {
 	padding: 130px 0;
 	overflow: hidden;
 }
+
+section-2 {
+	padding: 80px 0;
+	overflow: hidden;
+}
+
 section.big-section {
 	padding: 160px 0;
 }
@@ -1545,6 +1556,18 @@ textarea.input-bg {
 	top: 0;
 	left: 0;
 }
+
+.opacity-medium-2 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	opacity: 0.65;
+	top: 0;
+	left: 0;
+}
+
+
+
 .opacity-medium {
 	position: absolute;
 	height: 100%;
@@ -1670,6 +1693,11 @@ textarea.input-bg {
 .line-break {
 	display: block;
 }
+
+
+
+
+
 .no-transition *, .swiper-container *, .mfp-container *, .skillbar-bar-main *, .portfolio-grid *, .parallax, .rev-slider *, .header-searchbar *, .header-social-icon * {
 	transition-timing-function: none;
 	-moz-transition-timing-function: none;
@@ -10139,6 +10167,181 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 
 /* gutter type */
 
+
+
+
+
+.portfolio-grid-2.gutter-very-small li, .blog-grid.gutter-very-small li {
+	padding: 3px 3px
+}
+.portfolio-grid-2.gutter-small li, .blog-grid.gutter-small li {
+	padding: 5px 5px
+}
+.portfolio-grid-2.gutter-medium li, .blog-grid.gutter-medium li {
+	padding: 7px 7px
+}
+.portfolio-grid-2.gutter-large li, .blog-grid.gutter-large li {
+	padding: 10px 10px;
+}
+.portfolio-grid-2.gutter-extra-large li, .blog-grid.gutter-extra-large li {
+	padding: 20px;
+}
+.portfolio-grid-2.gutter-extra-large, .blog-grid.gutter-extra-large {
+	margin: 0 -20px;
+}
+
+.portfolio-grid-2.gutter-large {
+	margin: 0 10px;
+}
+.portfolio-grid-2.gutter-very-small, .blog-grid.gutter-very-small {
+	margin: 0 3px
+}
+.portfolio-grid-2.gutter-small, .blog-grid.gutter-small {
+	margin: 0 5px
+}
+.portfolio-grid-2.gutter-medium, .blog-grid.gutter-medium {
+	margin: 0 7px
+}
+/* portfolio 6 column */
+
+.portfolio-grid-2.work-6col li, .blog-grid.blog-6col li {
+	width: 16.67%
+}
+.portfolio-grid-2.work-6col li.grid-item-double, .blog-grid.blog-6col li.grid-item-double {
+	width: 33.33%;
+}
+/* portfolio 5 column */
+
+.portfolio-grid-2.work-5col li, .blog-grid.blog-5col li {
+	width: 20%
+}
+.portfolio-grid-2.work-5col li.grid-item-double, .blog-grid.blog-5col li.grid-item-double {
+	width: 40%;
+}
+/* portfolio 4 column */
+
+.portfolio-grid-2.work-4col li, .blog-grid.blog-4col li {
+	width: 25%
+}
+.portfolio-grid-2.work-4col li.grid-item-double, .blog-grid.blog-4col li.grid-item-double {
+	width: 50%;
+}
+/* portfolio 3 column */
+
+.portfolio-grid-2.work-3col li, .blog-grid.blog-3col li {
+	width: 33.33%;
+	float: left
+}
+.portfolio-grid-2.work-3col li.grid-item-double, .blog-grid.blog-3col li.grid-item-double {
+	width: 66.67%;
+}
+/* portfolio 2 column */
+
+.portfolio-grid-2.work-2col li, .blog-grid.work-2col li {
+	width: 50%
+}
+.portfolio-grid-2.work-2col li.grid-item-double, .blog-grid.work-2col li.grid-item-double {
+	width: 100%
+}
+/* portfolio 1 column */
+
+.work-1col .portfolio-grid-2 li {
+	width: 100%
+}
+/* portfolio grid */
+
+.portfolio-grid-2 {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.portfolio-grid-2 .grid-item figure {
+	margin: 0;
+	position: relative;
+	overflow: hidden
+}
+.portfolio-grid-2.grid-item figure img {
+	display: block;
+	width: 100%;
+	cursor: pointer;
+}
+.portfolio-grid-2 .grid-item {
+	opacity: 1;
+	overflow: hidden;
+}
+.portfolio-grid-2 .grid-item figure img {
+	cursor: pointer;
+	display: block;
+	opacity: 1;
+	width: 100%;
+	transition: all 0.3s ease 0s;
+}
+.portfolio-grid-2 .grid-item figcaption {
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	position: absolute;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	width: 100%;
+	height: 100%;
+	padding: 45px;
+	z-index: 1;
+	text-align: center
+}
+.portfolio-grid-2 .grid-item figure:hover .portfolio-img {
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+.portfolio-grid-2 .grid-item figure .portfolio-img {
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+.portfolio-grid-2 .grid-item figure:hover img {
+	opacity: 0.15;
+	transform: scale(1.1, 1.1);
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+.portfolio-grid-2 .grid-item figure:hover figcaption {
+	opacity: 1;
+	transition: all 0.3s ease 0s;
+	-webkit-transition: all 0.3s ease 0s;
+	-moz-transition: all 0.3s ease 0s;
+	-ms-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+}
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
 .portfolio-grid.gutter-very-small li, .blog-grid.gutter-very-small li {
 	padding: 3px 3px
 }
@@ -11703,7 +11906,7 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 /* pricing box */
 
 .highlight .pricing-box {
-	box-shadow: 0px 0px 40px 0px rgba(200, 200, 200, 0.9);
+	box-shadow: 20px 10px 40px 20px rgba(200, 200, 200, 0.9);
 	transform: scale(1.15);
 	-webkit-transform: scale(1.15);
 	-moz-transform: scale(1.15);
@@ -11712,7 +11915,9 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 }
 
 .pricing-box{
-	box-shadow: 0px 0px 40px 0px rgba(200, 200, 200, 0.9);
+	box-shadow: 20px 10px 40px 20px rgba(200, 200, 200, 0.9);
+	border-radius: 17px 17px 0 0;
+	
 }
 
 .feature-box {
