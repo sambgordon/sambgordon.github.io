@@ -4380,7 +4380,7 @@
     .portfolio-grid.gutter-extra-large, .blog-grid.gutter-extra-large {margin:0 -15px;}
     
     .hover-option8 .grid-item .portfolio-icon {right: 39px; top: 34px;}
-    .portfolio-grid.gutter-medium, .blog-grid.gutter-medium, .portfolio-grid.gutter-large, .portfolio-grid.gutter-large, .blog-grid.gutter-large { margin: 0; }
+    /* .blog-grid.gutter-medium,*/ .portfolio-grid.gutter-large, .portfolio-grid.gutter-large, .blog-grid.gutter-large { margin: 0; }
     .portfolio-grid.gutter-medium li, .blog-grid.gutter-medium li, .portfolio-grid.gutter-large li, .blog-grid.gutter-large li { padding: 7px 0}
 
     .portfolio-grid.work-5col li, .blog-grid.blog-5col li {width: 100%} 

@@ -10170,7 +10170,7 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 
 
 
-
+/* 
 .portfolio-grid-2.gutter-very-small li, .blog-grid.gutter-very-small li {
 	padding: 3px 3px
 }
@@ -10201,55 +10201,55 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 }
 .portfolio-grid-2.gutter-medium, .blog-grid.gutter-medium {
 	margin: 0 7px
-}
+} */
 /* portfolio 6 column */
-
+/* 
 .portfolio-grid-2.work-6col li, .blog-grid.blog-6col li {
 	width: 16.67%
 }
 .portfolio-grid-2.work-6col li.grid-item-double, .blog-grid.blog-6col li.grid-item-double {
 	width: 33.33%;
-}
+} */
 /* portfolio 5 column */
-
+/* 
 .portfolio-grid-2.work-5col li, .blog-grid.blog-5col li {
 	width: 20%
 }
 .portfolio-grid-2.work-5col li.grid-item-double, .blog-grid.blog-5col li.grid-item-double {
 	width: 40%;
-}
+} */
 /* portfolio 4 column */
-
+/* 
 .portfolio-grid-2.work-4col li, .blog-grid.blog-4col li {
 	width: 25%
 }
 .portfolio-grid-2.work-4col li.grid-item-double, .blog-grid.blog-4col li.grid-item-double {
 	width: 50%;
-}
+} */
 /* portfolio 3 column */
-
+/* 
 .portfolio-grid-2.work-3col li, .blog-grid.blog-3col li {
 	width: 33.33%;
 	float: left
 }
 .portfolio-grid-2.work-3col li.grid-item-double, .blog-grid.blog-3col li.grid-item-double {
 	width: 66.67%;
-}
+} */
 /* portfolio 2 column */
-
+/* 
 .portfolio-grid-2.work-2col li, .blog-grid.work-2col li {
 	width: 50%
 }
 .portfolio-grid-2.work-2col li.grid-item-double, .blog-grid.work-2col li.grid-item-double {
 	width: 100%
-}
+} */
 /* portfolio 1 column */
-
+/* 
 .work-1col .portfolio-grid-2 li {
 	width: 100%
-}
+} */
 /* portfolio grid */
-
+/* 
 .portfolio-grid-2 {
 	list-style: none;
 	padding: 0;
@@ -10328,7 +10328,7 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 	-o-transition: all 0.3s ease 0s;
 }
 
-
+ */
 
 
 
@@ -10373,9 +10373,7 @@ header.sticky nav.navbar.brand-center ul.nav>li>a {
 .portfolio-grid.gutter-small, .blog-grid.gutter-small {
 	margin: 0 5px
 }
-.portfolio-grid.gutter-medium, .blog-grid.gutter-medium {
-	margin: 0 7px
-}
+
 /* portfolio 6 column */
 
 .portfolio-grid.work-6col li, .blog-grid.blog-6col li {
